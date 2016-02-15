@@ -52,7 +52,7 @@ public class CreateContact extends AppCompatActivity {
             Toast.makeText(this, "Please enter in a name, email, and phone number!", Toast.LENGTH_LONG).show();
         }
         else{
-            dbHandler.addShoppingList(name, email, phone);
+            dbHandler.addContactList(name, email, phone);
             Toast.makeText(this, "New Contact Created!", Toast.LENGTH_LONG).show();
         }
 
